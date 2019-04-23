@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,
+body,
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    .scroll{
+        position: relative;
+        span{
+            position: absolute;
+            width: 10px;
+            height: 70px;
+            background: #f00;
+        }
+    }
+    ul{
+        width: 200px;
+        li{
+
+            width: 100%;
+            color: #ccc;
+            border-bottom: 1px #f90 solid;
+            dl{
+                display: flex;
+                margin: 10px;
+                dt{
+                    width: 50px;
+                    height: 50px;
+                    background: #999;
+                }
+                dd{
+                    padding-left: 10px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
